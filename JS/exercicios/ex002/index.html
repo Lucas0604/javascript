@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador de idade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section id="formulario">
+            <div>
+                <label for="idtnascimento">Ano de Nascimento:</label>
+                <input type="number" name="dtnascimento" id="idtnascimento">
+            </div>
+            <div>
+                Sexo:
+                <input type="radio" name="sexoM" id="isexoM">
+                <label for="isexoM">Masculino</label>
+                <input type="radio" name="sexoF" id="isexo">
+                <label for="isexoF">Feminino</label>
+            </div>
+            <input type="button" value="Verificar">
+        </section>
+        <div id="msg">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        <section id="imagem">
+            <img src="" alt="" id="foto" width="300px" height="200px" style="border-radius: 50%;">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; LucasCavalcante</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
