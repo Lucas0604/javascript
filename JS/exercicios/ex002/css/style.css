@@ -7,42 +7,29 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(36, 144, 238);
+    background-color: rgb(42, 162, 236);
+    font: normal 15pt Arial;
 }
 
 header {
     text-align: center;
+    margin: 30px;
     color: white;
 }
 
-header, h1 {
-    margin: 20px;
-}
-
-main {
-    margin: auto;
+section {
     background-color: white;
+    border-radius: 10px;
+    padding: 15px;
     width: 500px;
-    padding: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.474);
-    border-radius: 8px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.245);
 
-}
-
-div {
-    padding: 5px;
-    margin: 8px;
-}
-
-section#imagem {
-    display: none;
 }
 
 footer {
-    text-align: center;
-    color: white;
     margin: 20px;
+    color: white;
+    text-align: center;
     font-style: italic;
-    font-weight: bold;
 }
